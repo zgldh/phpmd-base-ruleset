@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="The Project PHP Standard" namespace="zgldh\NewProject">
+
+  <!-- Please copy this file to the project root directory and rename to ruleset.xml -->
+  <!-- Please refer to PHP_CodeSniffer document: https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset -->
+  <!-- And here: https://github.com/squizlabs/PHP_CodeSniffer/wiki/Customisable-Sniff-Properties -->
+
+  <description>The Project PHP coding standard. Referring to zgldh/phpmd-base-ruleset</description>
+
+  <!-- If this package is installed in global, please uncomment the line below. -->
+  <!-- <rule ref="/.composer/vendor/zgldh/phpmd-base-ruleset/ruleset.xml"/> -->
+  <rule ref="./vendor/zgldh/phpmd-base-ruleset/ruleset.xml"/>
+</ruleset>

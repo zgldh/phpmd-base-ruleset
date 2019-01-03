@@ -1,0 +1,26 @@
+{
+    "name": "zgldh/phpmd-base-ruleset",
+    "description": "The PHPMD ruleset for my projects",
+    "type": "library",
+    "license": "MIT",
+    "keywords":
+    [
+        "phpmd"
+    ],
+    "authors": [
+        {
+            "name": "zgldh",
+            "email": "zgldh@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "phpmd/phpmd": "^2.6"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+    },
+    "autoload-dev": {
+    }
+}
