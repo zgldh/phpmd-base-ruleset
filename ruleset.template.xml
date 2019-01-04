@@ -6,7 +6,7 @@
   <!-- Clean Code Rules https://phpmd.org/rules/cleancode.html -->
   <rule ref="rulesets/cleancode.xml/BooleanArgumentFlag"/>
   <rule ref="rulesets/cleancode.xml/ElseExpression"/>
-  <rule ref="rulesets/cleancode.xml/ElseExpression">
+  <rule ref="rulesets/cleancode.xml/StaticAccess">
       <properties>
           <property name="exceptions" value=""/>
       </properties>
